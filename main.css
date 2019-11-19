@@ -1,0 +1,160 @@
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+}
+.logo__icon {
+    display: flex;
+    align-items: center;
+}
+
+.logo__icon-img{
+    background: #5094f2;
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+    font-family:'SourceSansPro Regular',sans-serif;
+    text-align: center;
+    font-size:90px;
+    color: #ffffff;
+}
+h1{
+    padding-left:7px;
+    font-family: 'segoeWP light', sans-serif;
+    font-weight: normal;
+    font-size:53px;
+}
+.logo__icon-menu{
+    display: flex;
+    list-style: none;
+    float: right;
+}
+.logo__icon-menu li{
+    margin-right: 28px;
+    font-size: 27px;
+}
+.logo__icon-menu a{
+    text-decoration: none;
+    color: #646567;
+}
+.logo__icon-menu a:hover{
+    text-decoration: underline;
+}
+
+.border{
+    background-image: url("img/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.border__img{
+    padding-left: 20px;
+}
+.border__text{
+    padding-left: 60px;
+    color: white;
+    font-family: 'SegoeWP Light', sans-serif;
+    font-weight:100;
+    font-size:35px;
+    line-height: 0.7;
+}
+.border__text-max{
+    font-size:56px;
+    color: white;
+}
+.border__bottom{
+    display: flex;
+    background: #5094f2;
+    font-size:25px;
+    align-items: center;
+    width: 180px;
+    height: 40px;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.border__bottom img{
+    width: 25px;
+    height: 25px;
+}
+.border__bottom a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.border__1{
+    padding-left: 70px;
+    color: white;
+}
+.border__2{
+    padding-left: 70px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 50px;
+}
+h3{
+    font-family: 'SegoeWPN', sans-serif;
+    font-weight: normal;
+    font-size:27px;
+    color: #5094f2;
+    line-height: 0.5;
+}
+.menu p{
+    font-family: 'SegoeWPN', sans-serif;
+    font-weight: normal;
+    font-size:19px;
+}
+.menu__1 img{
+    background: #5094f2;
+    border-radius: 50%;
+}
+.menu__2 img{
+    background: #d94748;
+    border-radius: 50%;
+}
+.menu__3 img{
+    background: #ebbb11;
+    border-radius: 50%;
+}
+
+
+h2{
+    font-family: 'SegoeWPN', sans-serif;
+    font-weight: normal;
+    font-size:56px;
+    padding-left: 100px;
+    margin-top: 80px;
+    margin-bottom: 0;
+
+}
+.product{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.product__text-max{
+    font-family: 'segoeWPN light', sans-serif;
+    font-weight: normal;
+    font-size:35px;
+}
+.product__text{
+    font-family: 'segoeWPN light', sans-serif;
+    font-weight: normal;
+    font-size:20px;
+    padding-bottom: 80px;
+}
+
+
+.footer{
+    border-top:1.5px solid #797a7c;
+    text-align: center;
+
+}
